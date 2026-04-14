@@ -67,27 +67,35 @@ $ cd ~
 ```bash
 # 1. Переходимо в каталог /tmp
 $ cd /tmp
+
 # 2. Створюємо там робочу папку для тесту
 $ mkdir homework_test
+
 # 3. Переходимо в створену папку
 $ cd homework_test
+
 # 4. Створюємо порожній файл
 $ echo "Hello, Linux" > test_file.txt
+
 # 5. Переглядаємо список файлів
 $ ls -l
 ## Виведення
 total 1
 -rw-r--r-- 1 Ernest 197121 13 Apr 14 19:19 test_file.txt
+
 # 6. Переходимо в інше місце (корінь системи)
 $ cd /
+
 # 7. Повертаємось назад у попередній каталог
 $ cd -
 ## Виведення
 /tmp/homework_test
+
 # 8. Переглядаємо вміст файлу
 $ cat test_file.txt
 ## Виведення
 Hello, Linux
+
 # 9. Переглядаємо документацію команди mkdir
 $ mkdir --help
 ## Виведення
@@ -109,6 +117,7 @@ GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
 Report any translation bugs to <https://translationproject.org/team/>
 Full documentation <https://www.gnu.org/software/coreutils/mkdir>
 or available locally via: info '(coreutils) mkdir invocation'
+
 # 10. Виходимо з папки
 $ cd ..
 ```
