@@ -121,7 +121,9 @@ Processing triggers for man-db (2.13.1-1build1) ...
 ## 1. Перевірка статусу сервісу `cron`
 
 ```bash
+# Введення
 $ sudo systemctl status cron
+# Виведення
 ● cron.service - Regular background program processing daemon
      Loaded: loaded (/usr/lib/systemd/system/cron.service; enabled; preset: enabled)
      Active: active (running) since Mon 2026-06-15 10:25:50 CEST; 15min ago
